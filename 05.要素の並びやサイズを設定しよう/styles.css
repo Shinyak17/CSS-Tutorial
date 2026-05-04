@@ -2,11 +2,50 @@
   margin-left: 30px;
 }
 
-
 /* todayクラスに適用するスタイル */
+div .today {
+  height: 28px;
+}
+
+.today {
+  font-size: 20px;
+}
+
+span {
+  background-color: #FFC0CB;
+  display: inline-block;
+  line-height: 28px;
+  text-align: center;
+}
 
 /* temperatureクラスに適用するスタイル */
+div .temperature {
+  height: 20px;
+}
+
+.temperature {
+  background-color: #FFD8B2;
+  display: inline-block;
+  width: 40px;
+  line-height: 20px;
+  text-align: center;
+}
 
 /* humidityクラスに適用するスタイル */
+div .humidity {
+  height: 20px;
+}
+
+.humidity {
+  background-color: #ADD8E6;
+  display: inline-block;
+  width: 40px;
+  line-height: 20px;
+  text-align: center;
+}
 
 /* img要素に適用するスタイル */
+img {
+  display: block;
+  width: 150px;
+}
